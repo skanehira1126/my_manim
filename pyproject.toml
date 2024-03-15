@@ -7,6 +7,8 @@ authors = [
 ]
 dependencies = [
     "manim>=0.18.0",
+    "setuptools>=69.2.0",
+    "scikit-learn>=1.4.1.post1",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"

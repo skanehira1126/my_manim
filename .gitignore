@@ -164,3 +164,7 @@ cython_debug/
 
 # mainm
 media/*
+
+# rye
+.python-version
+requirements*.lock
