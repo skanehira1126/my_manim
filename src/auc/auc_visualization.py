@@ -383,6 +383,9 @@ class AUCVisualization(Scene):
             x_range=[0, 1, 0.1],
             length=6,
             color=BLUE,
+            include_numbers=True,
+            numbers_to_include=[0, 1],
+            # number_scale_value=0.5,
         )
         number_line.move_to(position)
         text_model_name = Text(f"{model_name} Prediction", color=WHITE, font_size=24).move_to(
