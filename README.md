@@ -38,4 +38,8 @@ $ rye install manim --extra-requirement setuptools
 manimの`Mobject.animate`はトランジションの最初の状態と最後の状態を補間するように遷移の描画を作る.   
 そのため四角形の180度回転など開始と最後の状態が同じときは遷移がおかしくなる時がある.
 
+### 強調表現
+- `Inicate`: 短い時間で拡大してから戻す
+- `FocusOn`: 薄い円が対象に集まる
+- `Flash`: 短い線が花火のように広がる
 
